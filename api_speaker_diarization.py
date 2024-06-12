@@ -13,7 +13,7 @@ import numpy as np
 import re
 import os
 from utils import*
-import chinh_ta
+import spell
 from nemo.collections.asr.models.msdd_models import NeuralDiarizer
 import requests
 from threading import Semaphore
@@ -132,7 +132,7 @@ def phantachhoithoai(vocal_target,temp_path,name):
         for string1 in split_strings1:
             # Xử lý chuỗi con ở đây (ví dụ: loại bỏ khoảng trắng thừa)
 
-            string1 = chinh_ta.terminal_input(string1)
+            string1 = spell.terminal_input(string1)
             processed_strings1.append(string1)
     
         # Hợp các chuỗi đã xử lý thành một chuỗi mới, cách nhau bởi kí tự '\n'
@@ -171,7 +171,7 @@ def phantachhoithoai(vocal_target,temp_path,name):
         for string2 in split_strings2:
             # Xử lý chuỗi con ở đây (ví dụ: loại bỏ khoảng trắng thừa)
 
-            string2 = chinh_ta.terminal_input(string2)
+            string2 = spell.terminal_input(string2)
             processed_strings2.append(string2)
     
         # Hợp các chuỗi đã xử lý thành một chuỗi mới, cách nhau bởi kí tự '\n'
@@ -210,7 +210,7 @@ def phantachhoithoai(vocal_target,temp_path,name):
         for string3 in split_strings3:
             # Xử lý chuỗi con ở đây (ví dụ: loại bỏ khoảng trắng thừa)
 
-            string3 = chinh_ta.terminal_input(string3)
+            string3 = spell.terminal_input(string3)
             processed_strings3.append(string3)
     
         # Hợp các chuỗi đã xử lý thành một chuỗi mới, cách nhau bởi kí tự '\n'
@@ -250,7 +250,7 @@ def phantachhoithoai(vocal_target,temp_path,name):
         for string in split_strings:
             # Xử lý chuỗi con ở đây (ví dụ: loại bỏ khoảng trắng thừa)
 
-            string = chinh_ta.terminal_input(string)
+            string = spell.terminal_input(string)
             processed_strings.append(string)
     
         # Hợp các chuỗi đã xử lý thành một chuỗi mới, cách nhau bởi kí tự '\n'
