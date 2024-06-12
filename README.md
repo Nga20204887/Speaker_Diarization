@@ -47,3 +47,7 @@ Speaker 0:Ok em nhé
 00:00:37,680 --> 00:00:38,451
 
 Speaker 1:Dạ vâng em cám ơn em chào chị ạ
+
+# Reference 
+1.https://github.com/NVIDIA/NeMo/tree/main/tutorials/speaker_tasks
+2.https://github.com/openai/whisper
