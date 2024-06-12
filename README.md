@@ -1,6 +1,5 @@
-# Speaker_Diarization
 
-# Conversation
+# Conversation Example
 1
 00:00:01,500 --> 00:00:01,404
 Speaker 0: Alo?
