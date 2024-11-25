@@ -401,4 +401,4 @@ if __name__ == '__main__':
     processor = Wav2Vec2Processor.from_pretrained("nguyenvulebinh/wav2vec2-base-vietnamese-250h")
     model = Wav2Vec2ForCTC.from_pretrained("nguyenvulebinh/wav2vec2-base-vietnamese-250h")
     model.to(device)
-    app.run(debug= False, host='43.239.223.184', port=9002)
+    app.run(debug= False, host='0.0.0.0', port=9002)
