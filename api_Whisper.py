@@ -124,4 +124,4 @@ def diarization():
 if __name__ == '__main__':
     whisper_model_name = "large-v2"
     whisper_model = WhisperModel(whisper_model_name, device="cpu", compute_type="int8")
-    app.run(debug= False, host='43.239.223.184', port=9001)
+    app.run(debug= False, host='0.0.0.0', port=9001)
